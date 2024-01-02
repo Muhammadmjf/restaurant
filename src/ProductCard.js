@@ -1,9 +1,9 @@
-export function ProductCard(props) {
+export function ProductCard({ name, price, image }) {
   return (
     <>
-      <h1>{props.name}</h1>
-      <h3>{props.price}KD</h3>
-      <img src={props.img} width="20%" />
+      <h1>{name}</h1>
+      <h3>{price}KD</h3>
+      <img src={image} width="20%" />
     </>
   );
 }

@@ -5,16 +5,16 @@ export const Products = [
   {
     name: "muhammed",
     price: 3,
-    imgae: Cookies,
+    img: Cookies,
   },
   {
     name: "nisser",
     price: 300,
-    imgae: Sweet,
+    img: Sweet,
   },
   {
     name: "lala",
     price: 100,
-    imgae: Cookies,
+    img: Cookies,
   },
 ];
